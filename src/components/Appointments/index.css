@@ -1,0 +1,68 @@
+/* Write your CSS here */
+* {
+  margin: 0px;
+}
+
+.app-container {
+  background-image: linear-gradient(to bottom, #fbc7d4, #9796f0);
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.card-container {
+  background-color: #ffffff;
+  width: 400px;
+  min-height: 150px;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+.heading {
+  font-size: 20px;
+}
+
+.appointments-image {
+  height: 100px;
+  width: 150px;
+  margin-left: 20px;
+}
+
+.button {
+  background-color: #8b5cf6;
+  color: #ffffff;
+  border-radius: 3px;
+  border-style: none;
+  padding: 2px;
+  margin: 7px;
+}
+
+.upper-part {
+  display: flex;
+}
+
+.appointments-star-btn-container {
+  display: flex;
+  justify-content: space-between;
+  margin: 5px;
+}
+
+.appointments-heading {
+  font-size: 15px;
+}
+
+.starred-btn {
+  background-color: #ffffff;
+  border-style: solid;
+  border-color: #8b5cf6;
+  border-width: 1px;
+  color: #8b5cf6;
+  border-radius: 7px;
+}
+
+.appointmentItems-container {
+  display: flex;
+  flex-wrap: wrap;
+}

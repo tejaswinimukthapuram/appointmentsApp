@@ -1,0 +1,25 @@
+/* Write your CSS here */
+
+.appointment-container {
+  width: 150px;
+  display: flex;
+  justify-content: space-between;
+  border: solid 1px #b5b7c4;
+  border-radius: 7px;
+  padding: 5px;
+  margin: 5px;
+}
+
+.title {
+  font-size: 13px;
+}
+
+.date {
+  font-size: 13px;
+  color: #b5b7c4;
+}
+
+.star-button {
+  background-color: #ffffff;
+  border-style: none;
+}
